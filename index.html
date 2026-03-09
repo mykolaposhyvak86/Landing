@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WoodCraft Studio &mdash; Handcrafted Wooden Decor &amp; Furniture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>WoodCraft Studio</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div>
+          <div class="hero-badge">
+            <span>✨ New collection</span>
+            <span>Handmade for your home</span>
+          </div>
+          <h1 class="hero-title">Handcrafted wooden decor and furniture, made to last.</h1>
+          <p class="hero-subtitle">
+            WoodCraft Studio creates timeless wooden crafts, wall decor, and custom furniture pieces by hand. Each item is crafted from responsibly sourced wood and finished to bring warmth and character to your space.
+          </p>
+          <div class="hero-actions">
+            <button class="btn-primary" type="button">Get Started</button>
+            <button class="btn-secondary" type="button">View Live Demo</button>
+          </div>
+        </div>
+
+        <aside class="hero-visual" aria-label="Featured products summary">
+          <div class="hero-card">
+            <h2 style="font-size:1rem;">Featured pieces</h2>
+            <div class="hero-stat">
+              <div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Solid oak coffee table</div>
+                <strong>From $420</strong>
+              </div>
+              <span style="font-size:0.8rem; color:var(--primary-color);">Made to order</span>
+            </div>
+            <div class="hero-stat">
+              <div>
+                <div style="font-size:0.8rem; color:var(--text-muted);">Wall-mounted shelving set</div>
+                <strong>From $160</strong>
+              </div>
+              <span style="font-size:0.8rem; color:var(--primary-color);">Local hardwood</span>
+            </div>
+            <p style="font-size:0.88rem; color:var(--text-muted);">
+              Every piece is designed and handcrafted in our small studio, finished with natural oils, and shipped safely to your door.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="features" class="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="features-header">
+          <h2 id="features-title">Thoughtful details in every piece</h2>
+          <p>
+            From eco-conscious materials to fully custom designs, WoodCraft Studio focuses on quality that you can see and feel every day.
+          </p>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-heading">
+              <div class="feature-icon" aria-hidden="true">🌱</div>
+              <h3>Eco-friendly materials</h3>
+            </div>
+            <div class="feature-body">
+              <p>
+                We work with responsibly sourced local hardwoods and low-VOC finishes so your home looks beautiful and stays healthy.
+              </p>
+              <div class="feature-meta">
+                <span>Sustainably sourced lumber</span>
+                <span>Natural finishes</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-heading">
+              <div class="feature-icon" aria-hidden="true">📐</div>
+              <h3>Custom designs</h3>
+            </div>
+            <div class="feature-body">
+              <p>
+                Collaborate with our studio to create one-of-a-kind shelving, tables, desks, and decor tailored to your space and style.
+              </p>
+              <div class="feature-meta">
+                <span>Made to your dimensions</span>
+                <span>Design support</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-heading">
+              <div class="feature-icon" aria-hidden="true">🪵</div>
+              <h3>Handcrafted quality</h3>
+            </div>
+            <div class="feature-body">
+              <p>
+                Each piece is carefully shaped, sanded, and finished by hand, highlighting the natural grain and character of the wood.
+              </p>
+              <div class="feature-meta">
+                <span>Small-batch production</span>
+                <span>Built to last</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Mykola Poshyvak. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple helper to keep the year fresh
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
